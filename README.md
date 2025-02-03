@@ -15,21 +15,27 @@ Download the provided config file from my github release page to use it later in
 
 GUIDE START:
 1. Extract super.img.0-13 from xiaomi.eu rom to separate folder (ROM you want to port)
-2. Open termux and do
+   <br/> <br/>
+3. Open termux and do
+   <br/> <br/>
    ```
     apt update && apt install android-tools
    ```
-4. Open extracted super.img folder
+5. Open extracted super.img folder
+   <br/> <br/>
    ```
     cd /sdcard/"YOUR FOLDER"
    ```
 6. Merge split super.img by doing
+   <br/> <br/>
    ```
     simg2img super.img.0 super.img.2 super.img.4 super.img.5 super.img.6 super.img.7 super.img.8 super.img.9 super.img.10 super.img.11 super.img.12 super.img.13 superimgname.img
    ```
 8. Open MT manager and Move merged super.img into data/local/UnpackerSuper/
+   <br/> <br/>
 9. Open termux to Extract .imgs
-    ```
+   <br/> <br/>
+   ```
     su
     ```
     ```
@@ -48,6 +54,7 @@ GUIDE START:
     return(enter)
     ```
 11. Extract mi_ext.img
+    <br/> <br/>
     ```
     3 (menu: Unpacking .img)
     ```
@@ -60,20 +67,28 @@ GUIDE START:
     ```
     return(enter)
     ```
-13. Do the same for system.img, product.img and system_ext.img
-17. Add files from previous guide to extracted .imgs
-18. Open MT Manager and open extracted .img folder
-19. Make new folder like this:
+12. Do the same for system.img, product.img and system_ext.img
+   <br/> <br/>
+13. Add files from OEM_PORT_FILES.zip inside PORT_FILES/ to extracted .imgs
+   <br/> <br/>
+14. Open MT Manager and open UnpackerSystem .img folder
+   <br/> <br/>
+15. Create new folder like this:
+    <br/> <br/>
     ```
         mi_ext_a
         System_a
         Product_a
         System_ext_a
     ```
-    Then move extracted folders to new created folders Example: mi_ext move to mi_ext_a
-12. Open config/"extracted_img"/ and move all config files to separated folders as backup
-13. Copy provided config from ROM_FILES.zip and add it to UnpackerSystem/config Note: backup the original config files first
-14. Open termux and build .img
+    Then move extracted folders to new created folders Example: move mi_ext to mi_ext_a
+    <br/> <br/>
+16. Open UnpackerSystem/config
+    <br/> <br/>
+17. Copy provided config from ROM_FILES.zip and add it to UnpackerSystem/config Note: backup the original config files first
+    <br/> <br/>
+18. Open termux and build .img
+    <br/> <br/>
     ```
     su
     ```
@@ -89,8 +104,11 @@ GUIDE START:
     Build all mi_ext_a, system_ext_a, system_a, and product_a
     Theres a new .img created inside UnpackerSystem/ folder usually named as "partition_name"_a_new.img
     Rename it to "Partition_name"_a.img Example: mi_ext_a_new.img to mi_ext_a.img
-16. Move the new .img to extracted UnpackerSuper/ folder
-17. Open termux and merge .img
+    <br/> <br/>
+20. Move the new .img to extracted UnpackerSuper/ folder
+    <br/> <br/>
+21. Open termux and build super.img
+    <br/> <br/>
     ```
     su
     ```
@@ -102,7 +120,12 @@ GUIDE START:
     3 (Build super.img)
     2 (Build super.img(raw))
     ```
+    ---
     Note: if you build with "sparse" format, you can't flash the rom using Orangefox(custom recovery) or fastboot only!
-19. Import new super.img from UnpackerSuper/output/ to INSTALLER folder
-20. Rename from super_new.img to super.img or any name you want. but make sure you change the name in the installer script inside "META-INF/com/google/android/updater-script"
-21. Zip the folder and flash it using custom recovery or fastboot.
+    ---
+    <br/> <br/>
+22. Import new super.img from UnpackerSuper/output/ to INSTALLER folder
+    <br/> <br/>
+23. Rename from super_new.img to super.img or any name you want. but make sure you change the name in the installer script inside "META-INF/com/google/android/updater-script"
+    <br/> <br/>
+24. Zip the folder and flash it using custom recovery or fastboot.
