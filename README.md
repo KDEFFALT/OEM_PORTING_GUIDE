@@ -86,7 +86,7 @@ GUIDE START:
     3 (Build. img(raw) with the size of the folder for assembly)
     Select build folder
     ```
-    Do the same for system_ext_a, system_a, product_a and system_ext_a
+    Build all mi_ext_a, system_ext_a, system_a, and product_a
     Theres a new .img created inside UnpackerSystem/ folder usually named as "partition_name"_a_new.img
     Rename it to "Partition_name"_a.img Example: mi_ext_a_new.img to mi_ext_a.img
 16. Move the new .img to extracted UnpackerSuper/ folder
