@@ -28,7 +28,7 @@ GUIDE START:
     simg2img super.img.0 super.img.2 super.img.4 super.img.5 super.img.6 super.img.7 super.img.8 super.img.9 super.img.10 super.img.11 super.img.12 super.img.13 superimgname.img
    ```
 8. Open MT manager and Move merged super.img into data/local/UnpackerSuper/
-9. Open termux to Extract super.img
+9. Open termux to Extract .imgs
     ```
     su
     ```
@@ -47,7 +47,7 @@ GUIDE START:
     ```
     return(enter)
     ```
-11. Extract system.img
+11. Extract mi_ext.img
     ```
     3 (menu: Unpacking .img)
     ```
@@ -55,12 +55,12 @@ GUIDE START:
     2 (Unpacking .img from folder: data/local/UnpackerSuper/)
     ```
     ```
-    Select system.img
+    Select mi_ext.img
     ```
     ```
     return(enter)
     ```
-13. Do the same for mi_ext.img, product.img and system_ext.img
+13. Do the same for system.img, product.img and system_ext.img
 17. Add files from previous guide to extracted .imgs
 18. Open MT Manager and open extracted .img folder
 19. Make new folder like this:
