@@ -137,5 +137,5 @@ GUIDE START:
     <br/> <br/>
     <br/> <br/>
 ---
-NOTE: Add Credits to me @Belowzeroiq, @KDEFFALT and @MMETMA if you using this guide
+NOTE: Add Credits to me @Belowzeroiq, @KDEFFALT(github) and @MMETMA if you using this guide
 ---
