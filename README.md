@@ -134,9 +134,6 @@ GUIDE START:
 24. Zip the folder and flash it using custom recovery or fastboot.
     <br/> <br/>
     <br/> <br/>
-    <br/> <br/>
-    <br/> <br/>
-    <br/> <br/>
 ---
 NOTE: Add Credits to me @Belowzeroiq, @KDEFFALT and @MMETMA if you using this guide
 ---
