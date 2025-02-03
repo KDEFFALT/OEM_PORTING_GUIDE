@@ -44,7 +44,9 @@ GUIDE START:
     ```
     Select superimgname.img
     ```
+    ```
     return(enter)
+    ```
 11. Extract system.img
     ```
     3 (menu: Unpacking .img)
