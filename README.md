@@ -131,7 +131,7 @@ GUIDE START:
     <br/> <br/>
 18. Import super_new.img from UnpackerSuper/output/ to INSTALLER/image folder
     <br/> <br/>
-19. Rename from super_new.img to super.img or any name you want. but make sure you change the name in the installer script inside "META-INF/com/google/android/updater-script"
+19. Rename super_new.img to super.img or any name you want. but make sure you change the name in the installer script inside "META-INF/com/google/android/updater-script"
     <br/> <br/>
 20. Zip the folder and flash it using custom recovery or fastboot.
     <br/> <br/>
