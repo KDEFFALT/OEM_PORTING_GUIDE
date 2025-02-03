@@ -132,3 +132,11 @@ GUIDE START:
 23. Rename from super_new.img to super.img or any name you want. but make sure you change the name in the installer script inside "META-INF/com/google/android/updater-script"
     <br/> <br/>
 24. Zip the folder and flash it using custom recovery or fastboot.
+    <br/> <br/>
+    <br/> <br/>
+    <br/> <br/>
+    <br/> <br/>
+    <br/> <br/>
+---
+NOTE: Add Credits to me @Belowzeroiq, @KDEFFALT and @MMETMA if you using this guide
+---
