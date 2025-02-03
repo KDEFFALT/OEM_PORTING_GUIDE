@@ -18,24 +18,24 @@ GUIDE START:
    <br/> <br/>
 3. Open termux and do
    <br/> <br/>
-   ```
+    ```
     apt update && apt install android-tools
-   ```
+    ```
 5. Open extracted super.img folder
    <br/> <br/>
-   ```
+    ```
     cd /sdcard/"YOUR FOLDER"
-   ```
+    ```
 6. Merge split super.img
    <br/> <br/>
-   ```
+    ```
     simg2img super.img.0 super.img.1 super.img.2 super.img.3 super.img.4 super.img.5 super.img.6 super.img.7 super.img.8 super.img.9 super.img.10 super.img.11 super.img.12 super.img.13 superimgname.img
-   ```
+    ```
 8. Open MT manager and Move merged super.img into data/local/UnpackerSuper/
    <br/> <br/>
 9. Open termux to Extract .imgs
    <br/> <br/>
-   ```
+    ```
     su
     ```
     ```
