@@ -129,7 +129,7 @@ GUIDE START:
     Note: if you build with "sparse" format, you can't flash the rom using Orangefox(custom recovery) or fastboot only!
     ---
     <br/> <br/>
-23. Import new super.img from UnpackerSuper/output/ to INSTALLER folder
+23. Import super_new.img from UnpackerSuper/output/ to INSTALLER folder
     <br/> <br/>
 24. Rename from super_new.img to super.img or any name you want. but make sure you change the name in the installer script inside "META-INF/com/google/android/updater-script"
     <br/> <br/>
