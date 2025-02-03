@@ -60,32 +60,7 @@ GUIDE START:
     ```
     return(enter)
     ```
-13.  Extract product.img
-    ```
-    3 (menu: Unpacking .img)
-    ```
-    ```
-    2 (Unpacking .img from folder: data/local/UnpackerSuper/)
-    ```
-    ```
-    Select product.img
-    ```
-    ```
-    return(enter)
-    ```
-15.  Extract system_ext.img
-    ```
-    3 (menu: Unpacking .img)
-    ```
-    ```
-    2 (Unpacking .img from folder: data/local/UnpackerSuper/)
-    ```
-    ```
-    Select system_ext.img
-    ```
-    ```
-    return(enter)
-    ```
+13. Do the same for mi_ext.img, product.img and system_ext.img
 17. Add files from previous guide to extracted .imgs
 18. Open MT Manager and open extracted .img folder
 19. Make new folder like this:
