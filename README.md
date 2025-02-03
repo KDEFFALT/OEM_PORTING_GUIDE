@@ -2,7 +2,7 @@ PORTING GUIDE V2 using ANDROID for ANDROID
 
 Requirements tools: (Download from release page)
 
-- Root access (Magisk recomended or you can use root access from KernelSU or Apatch if you can gain su access in termux)
+- Root access (Magisk recomended or you can use root access from KernelSU/Apatch if you can gain su access in termux)
 - Termux
 - MT manager
 - UKA modules
