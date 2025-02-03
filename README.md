@@ -7,7 +7,7 @@ Requirements tools: (Download from release page)
 - MT manager
 - UKA modules
 ---
-NOTE: this guide for doing porting using xiaomi.eu rom as port rom. if you port from the device that the installer file contain only one super.img then just skip and No.4
+NOTE: this guide for doing porting using xiaomi.eu rom as port rom. if you port from the device that the installer file contain only one super.img then just skip No.4
 ---
 
 BEFORE YOU START:
