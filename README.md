@@ -26,7 +26,7 @@ GUIDE START:
    ```
     cd /sdcard/"YOUR FOLDER"
    ```
-6. Merge split super.img by doing
+6. Merge split super.img
    <br/> <br/>
    ```
     simg2img super.img.0 super.img.2 super.img.4 super.img.5 super.img.6 super.img.7 super.img.8 super.img.9 super.img.10 super.img.11 super.img.12 super.img.13 superimgname.img
