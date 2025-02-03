@@ -19,7 +19,10 @@ GUIDE START:
 3. Open termux and do
    <br/> <br/>
     ```
-    apt update && apt install android-tools
+    apt update && apt install android-tools -y
+    ```
+    ```
+    termux-setup-storage
     ```
 5. Open extracted super.img folder
    <br/> <br/>
