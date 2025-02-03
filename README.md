@@ -69,7 +69,7 @@ GUIDE START:
     ```
 12. Do the same for system.img, product.img and system_ext.img
    <br/> <br/>
-13. Add files from OEM_PORT_FILES.zip inside PORT_FILES/ to extracted .imgs
+13. Add files from OEM_PORT_FILES.zip inside PORT_FILES/ to extracted .imgs folder
    <br/> <br/>
 14. Open MT Manager and open UnpackerSystem .img folder
    <br/> <br/>
