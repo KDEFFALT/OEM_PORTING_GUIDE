@@ -108,7 +108,7 @@ GUIDE START:
     Theres a new .img created inside UnpackerSystem/ folder usually named as "partition_name"_a_new.img <br/>
     Rename it to "Partition_name"_a.img Example: mi_ext_a_new.img to mi_ext_a.img
     <br/> <br/>
-20. Move the new .img to extracted UnpackerSuper/ folder
+20. Move the new .img to UnpackerSuper/ folder
     <br/> <br/>
 21. Copy .img files from OEM_PORTING_FILES.zip into UnpackerSuper
     <br/> <br/>
