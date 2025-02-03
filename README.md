@@ -110,7 +110,8 @@ GUIDE START:
     <br/> <br/>
 20. Move the new .img to extracted UnpackerSuper/ folder
     <br/> <br/>
-21. Open termux and build super.img
+21. Copy .img files from OEM_PORTING_FILES.zip into UnpackerSuper
+22. Open termux and build super.img
     <br/> <br/>
     ```
     su
@@ -127,11 +128,11 @@ GUIDE START:
     Note: if you build with "sparse" format, you can't flash the rom using Orangefox(custom recovery) or fastboot only!
     ---
     <br/> <br/>
-22. Import new super.img from UnpackerSuper/output/ to INSTALLER folder
+23. Import new super.img from UnpackerSuper/output/ to INSTALLER folder
     <br/> <br/>
-23. Rename from super_new.img to super.img or any name you want. but make sure you change the name in the installer script inside "META-INF/com/google/android/updater-script"
+24. Rename from super_new.img to super.img or any name you want. but make sure you change the name in the installer script inside "META-INF/com/google/android/updater-script"
     <br/> <br/>
-24. Zip the folder and flash it using custom recovery or fastboot.
+25. Zip the folder and flash it using custom recovery or fastboot.
     <br/> <br/>
     <br/> <br/>
 ---
