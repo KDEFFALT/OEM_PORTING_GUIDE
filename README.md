@@ -74,7 +74,7 @@ GUIDE START:
    <br/> <br/>
 13. Add files from OEM_PORT_FILES.zip inside PORT_FILES/ to extracted .imgs folder
    <br/> <br/>
-14. Open UnpackerSystem .img folder
+14. Open UnpackerSystem folder
    <br/> <br/>
 15. Create new folder like this:
     <br/> <br/>
