@@ -88,7 +88,7 @@ GUIDE START:
     <br/> <br/>
 16. Open UnpackerSystem/config
     <br/> <br/>
-17. Copy provided config from ROM_FILES.zip and add it to UnpackerSystem/config Note: backup the original config files first
+17. Copy provided config from OEM_PORTING_FILES.zip and add it to UnpackerSystem/config Note: backup the original config files first
     <br/> <br/>
 18. Open termux and build .img
     <br/> <br/>
