@@ -1,4 +1,4 @@
-PORTING GUIDE V2 from ANDROID to ANDROID
+PORTING GUIDE V2 using ANDROID to ANDROID
 
 Requirements tools: (Download from release page)
 
